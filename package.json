@@ -1,0 +1,25 @@
+{
+  "name": "accessibility-analyzer",
+  "version": "1.0.0",
+  "description": "A Node.js-based web accessibility analyzer that scans any public website URL for WCAG 2.1 accessibility issues using axe-core and Puppeteer. Returns detailed reports highlighting violations, affected elements, and recommended code fixes. Ideal for developers aiming to improve website accessibility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmanyu-singhz/accessibility-analyzer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devmanyu-singhz/accessibility-analyzer/issues"
+  },
+  "homepage": "https://github.com/devmanyu-singhz/accessibility-analyzer#readme",
+  "dependencies": {
+    "axe-core": "^4.10.3",
+    "express": "^5.1.0",
+    "puppeteer": "^24.10.0"
+  }
+}
