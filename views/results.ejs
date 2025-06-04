@@ -1,0 +1,41 @@
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Analysis Results</title>
+</head>
+<body>
+  <h1>Accessibility Analysis Results</h1>
+  <ul>
+    <% results.forEach(result => { %>
+      <li>
+        <strong><%= result.url %></strong><br>
+        Status: <%= result.status %><br>
+        Violations found: <%= result.violations %>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+</head>
+<body>
+  <h1>Analysis Results</h1>
+  <ul>
+    <% results.forEach(result => { %>
+      <li>
+        <strong><%= result.url %></strong><br>
+        Status: <%= result.status %><br>
+        Violations: <%= result.violations %>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>
