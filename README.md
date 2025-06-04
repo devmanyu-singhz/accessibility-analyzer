@@ -7,19 +7,19 @@ A command-line tool that analyzes the accessibility of any public website using 
 
 ## Features
 
--Runs a headless browser to load the provided URL
--Injects the axe-core library for accessibility auditing
--Detects and lists all accessibility violations
--Saves results in structured JSON format inside a folder called results
+-Runs a headless browser to load the provided URL <br>
+-Injects the axe-core library for accessibility auditing <br>
+-Detects and lists all accessibility violations <br>
+-Saves results in structured JSON format inside a folder called results <br>
 -Easy to extend with multi-page scans and/or a web UI
 
 ---
 
 ## Tech Stack
 
--[Node.js](https://nodejs.org)
--[Puppeteer](https://github.com/puppeteer/puppeteer)
--[axe-core](https://github.com/dequelabs/axe-core)
+-[Node.js](https://nodejs.org) <br>
+-[Puppeteer](https://github.com/puppeteer/puppeteer) <br>
+-[axe-core](https://github.com/dequelabs/axe-core) <br>
 -[express.js](https://expressjs.com/) {for future web interface}
 
 ---
@@ -71,13 +71,13 @@ accessibility-analyzer/
 
 ## Future Ideas
 
--web interface with forms to enter urls
--batch scanning for multiple urls
--filter or group results by severity
--generate human-readable HTML or PDF reports
--email accessibility reports automatically
+-Web interface with forms to enter urls<br>
+-Batch scanning for multiple urls <br>
+-Filter or group results by severity <br>
+-Generate human-readable HTML or PDF reports <br>
+-Email accessibility reports automatically
 
-# Author
+## Author
 Abhimanyu Singh
 GitHub : @devmanyu-singhz
 LinkedIn : https://www.linkedin.com/in/abhimanyu-singh-87886b28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
