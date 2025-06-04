@@ -19,6 +19,7 @@
   "homepage": "https://github.com/devmanyu-singhz/accessibility-analyzer#readme",
   "dependencies": {
     "axe-core": "^4.10.3",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "puppeteer": "^24.10.0"
   }
