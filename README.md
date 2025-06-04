@@ -78,8 +78,8 @@ accessibility-analyzer/
 -Email accessibility reports automatically
 
 ## Author
-Abhimanyu Singh
-GitHub : @devmanyu-singhz
+Abhimanyu Singh <br>
+GitHub : @devmanyu-singhz <br>
 LinkedIn : https://www.linkedin.com/in/abhimanyu-singh-87886b28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
 
