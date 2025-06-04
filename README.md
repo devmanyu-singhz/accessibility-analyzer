@@ -54,3 +54,32 @@ each scan generates a file like:
 results/report-2025-06-04T12-42-00-000Z.json
 
 this file contains all the accessibility violations returned by axe-core, formatted for easy reading
+
+---
+
+## Project Structure
+
+accessibility-analyzer/
+->index.js                  #main script
+->results/                  #stores json audit reports
+->package.json              #project metadata
+->package-lock.json         #locks dependency versions to ensure consistency
+->node_modules/             #dependencies
+->README.md                 #project description
+
+```
+
+## Future Ideas
+
+-web interface with forms to enter urls
+-batch scanning for multiple urls
+-filter or group results by severity
+-generate human-readable HTML or PDF reports
+-email accessibility reports automatically
+
+# Author
+Abhimanyu Singh
+GitHub : @devmanyu-singhz
+LinkedIn : https://www.linkedin.com/in/abhimanyu-singh-87886b28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
+
